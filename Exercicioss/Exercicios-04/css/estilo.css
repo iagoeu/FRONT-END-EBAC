@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* div{
+    float: inline-end;
+} */
+ body{
+    background-color: orange;
+ }
+#img-01{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+}
+#img-01 img{
+    width: 100%;
+}
+#img-02{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    /* border-radius: 50%; */
+    display: flex;
+}
+#img-02 img{
+    width: 100%;
+}
+#img-03{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+}
+#img-03 img{
+    width: 100%;
+}
+#img-01 p{
+    display: flex;
+}
+footer{
+    background-color: orange;
+    font-weight: bold;
+    text-align: center;
+}

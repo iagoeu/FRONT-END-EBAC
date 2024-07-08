@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1px;
+    margin-top: 1px;
+
+}
+h1{
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    
+}
+nav{
+    background-color: aqua;
+    height: 100px;
+}
+li{
+    list-style-type: none;
+    border-bottom: none;
+}
+li:hover{
+    background-color: aqua;
+}
+input{
+    margin: 2px;
+    border: blue 1px solid;
+}
+label{
+    color: rgb(73, 73, 183);
+    border-bottom: 1px  double blue;
+}
+
+footer{
+    background-color: blue;
+    text-align: center;
+}
+
+#button:hover{
+    background-color: aqua;
+}

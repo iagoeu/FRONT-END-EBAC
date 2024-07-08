@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos graficos</title>
+    <link rel="stylesheet" href="grafico.css">
+</head>
+
+<body>
+    <h1>Elementos graficos</h1>
+
+    <div id="grafico-01">
+
+        <img src="../imagens/coffee-sm.jpg" alt="" id="01-img">
+    </div>
+
+    <div id="grafico-02">
+
+
+    </div>
+    <div id="img-vetorial">
+        <img src="../imagens/coffee.svg" alt="Café-svg">
+    </div>
+    <div>
+        <canvas id="canvas">
+
+        </canvas>
+    </div>
+    <script>
+        var canvas = document.getElementById('canvas')
+        var ctx = canvas.getContext('2d')
+        ctx.fillStyle = "#00FF99"
+        ctx.fillRect(80, 0, 100, 80)
+    </script>
+</body>
+
+</html>

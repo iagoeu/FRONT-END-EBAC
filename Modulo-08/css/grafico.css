@@ -1,0 +1,65 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6em;
+}
+div {
+    margin: 40px auto;
+    
+}
+
+/* Cria um circulo perfeito */
+
+#grafico-01{
+    /* background-color: red; */
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    max-width: 100%;
+
+}
+
+#grafico-01 img {
+    width: 100%;
+}
+
+/* Triangulo */
+#grafico-02{
+    /* background-color: red;  */
+    border-style: solid;
+    border-width: 60px 0 60px 120px;
+    border-color: transparent transparent transparent rgb(25, 106, 181);
+    width: 60px;
+
+}
+
+#img-vetorial{
+    width: 300px;
+    height: 400px;
+}
+
+footer{
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Filtros */
+
+.filtro{
+    filter: grayscale(100%);  /*Escala de cinza*/
+    filter: blur(5px);    /*Desfoque*/
+    filter: brightness(50%); /* Brilho 100%=normal */
+    filter: invert(100%);   /*inversao de cores*/
+    filter: opacity(50%);
+    filter: saturate(205%) sepia(100%); /*Combina filtros separados por imagens*/
+}
+#grafico-01{
+    filter: drop-shadow(8px 8px 10px #333);
+}
+
+.filtro:hover{
+    filter:grayscale(0%) ;
+}

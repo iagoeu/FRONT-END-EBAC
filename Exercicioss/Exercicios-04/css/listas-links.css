@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+ul{
+    color: brown;
+    background-color: aqua;
+    width: 200px;
+}
+ol{
+    color: rgb(147, 165, 42);
+    background-color: rgb(255, 68, 0);
+     width: 160px;
+}
+h2{
+    width: 250px;
+    background-color: aquamarine;
+    color: gray;
+    padding: 10px;
+}

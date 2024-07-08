@@ -1,0 +1,41 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
+  background-color: #bbb;
+  color: white;
+  height: 80px;
+}
+nav > ul {
+  display: flex;
+  /* background-color: rgb(126, 181, 181); */
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+li {
+  padding-left: 18%;
+}
+
+
+
+
+article {
+  text-align: center;
+  background-color: beige;
+  width: 75%;
+  padding-top: 5px;
+
+
+}
+
+ footer {
+  width: 100%;
+  text-align: center;
+  background-color: #bbb;
+  padding: 10px;
+} 

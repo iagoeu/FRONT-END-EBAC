@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	<!-- Informação para o navegador -->
+	<title>HTML - Formularios</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="widht=device-widht, initial-scale-1">
+	<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+	<!-- Informação pra o visitante do site  -->
+		<header>
+			<h1>Fale conosco</h1>	
+		</header>
+		<section>
+			<nav>
+				<ul>
+					<li><a href="05-layouts.html">Home<a></li>
+					<li><a href="#sobre">Sobre<a></li>
+					<li><a href="#contato">contato<a></li>
+				<ul>
+			</nav>
+			<article>
+				<h1>Contato</h1>
+				<p>Preencha os campos abaixo</p>
+				<form method="post">
+					<div>
+						<label for="nome">Nome:</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Seu nome">
+				 	</div>
+				 	<div>
+						<label for="email">E-mail<label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+					<div>
+						<label for="menssagem">Menssagem:</label><br>
+						<textarea name="menssagem" id="menssagem" rows="5"></textarea>
+					</div>
+					<div>
+						<label>Quais linguagens você sabe?</label>
+						<input type="radio" name="linguagens" value="html">HTML
+						<input type="radio" name="linguagens" value="css">CSS
+						<input type="radio" name="linguagens" value="javascript">JavaScript
+
+					</div>
+					<br>
+					<div>
+						<label>Qual sua cor favorita?</label>
+						<select>
+							<option value="azul" selected>Azul</option>
+							<option value="vermelho">Vermelho</option>
+							<option value="amarelo">Amarelo</option>
+						<select>
+					</div>
+					<br>
+					<div>
+						<label>Qual sua linguagem preferida?</label>
+						<input type="checkbox" name="linguagens" value="html">HTML
+						<input type="checkbox" name="linguagens" value="css">CSS
+						<input type="checkbox" name="linguagens" value="javascript">JavaScript
+					</div>
+					<div>
+						<input type="submit">
+					</div>
+	
+				</form>
+
+			</article>
+
+			
+		</section>
+
+		<footer>
+			<p>Desevolvido por Iago ferro</p>
+		</footer>
+	</body>
+
+</html>
