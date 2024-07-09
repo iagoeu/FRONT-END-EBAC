@@ -2,7 +2,7 @@ html {
   font-family: monospace;
 }
 header {
-  background-color:  rgb(185, 129, 118);;
+  background-color: rgb(185, 129, 118);
   text-align: center;
   color: #333;
   font-size: 1.5em;
@@ -14,6 +14,28 @@ body {
   background-color: #333;
   overflow-x: hidden;
   /* width: 100%; */
+}
+
+nav {
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding: 3px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a:hover {
+  background: salmon;
+  color: bisque;
+  border-radius: 10px 0px 10px 0px;
+}
+a {
+  color: rgba(255, 255, 255, 0.837);
+  /* box-shadow: 2px 3px 4px black; */
 }
 
 @media (min-width: 1000px) {
@@ -34,7 +56,7 @@ section {
 }
 
 article {
-  padding: 27px 60px 3px 42px;
+  padding: 27px 60px 24px 42px;
   /* width: 90%; */
   columns: 52px 3;
   background-color: white;
@@ -52,21 +74,19 @@ article {
 p {
   text-align: justify;
   padding: 5px;
-
 }
-.article{
+.article {
   background-color: rgb(185, 129, 118);
 }
-.aside{
+.aside {
   color: white;
-  float: left;
+  background-color: salmon;
 }
-@media (max-width: 316px) {
+@media (max-width: 380px) {
   article {
     /* columns: 0px 1; */
     display: contents;
   }
-
 
   .div-1 {
     display: block;
@@ -79,9 +99,18 @@ p {
   }
 }
 
+.footer {
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: white;
+  font-size: 1.5em;
+}
+
 footer p {
   text-align: center;
-  background-color:grey;
+  background-color: grey;
   font-size: 1.4em;
   color: white;
 }
