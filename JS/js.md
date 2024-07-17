@@ -1,4 +1,4 @@
-## Opetadores
+## Operadores
 
 - Soma +
 - Subtração -
