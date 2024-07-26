@@ -1,21 +1,21 @@
 # Operadores
 
-
 ## Aritiméticos: retornam o resultado de uma operação
+
 - Soma +
 - Subtração -
-- Multiplicar *
+- Multiplicar \*
 - Dividir /
 - Módulo% (resto da divisão)
 - Math: randon(), round(),sqrt()
 
-
 ## Comparadores matemáticos:teste lógico,retorno booleano (true / false);
-< menor que
-> maior que
-<= menor ou igual
->= maior ou igual
 
+< menor que
+
+> maior que
+> <= menor ou igual
+> = maior ou igual
 
 ## Comparadores Lógicos: teste lógico, retorno booleano (true / false);
 
@@ -24,14 +24,14 @@
 - === igualdade entre sentenças (Valor e Tipo)
 - !== Diferença entre sentenças (Valor e Tipo)
 
-
 ## Operadores de lógica e junção logica
-- !       NÃO(NOT)
-- &&      E (AND)
-- ||      OU(OR)
 
+- ! NÃO(NOT)
+- && E (AND)
+- || OU(OR)
 
 #### Exemplod;
+
 - a != b // o valor de a é diferente de b
 - x !== y //o valor e o tipo de x são diferentes de y
 - !a == b //o valor de a não é igual ao valor de b
@@ -41,7 +41,6 @@
 - true é equivalente a 1
 - false é equivalente a 0
 
-
 ### Operador lógico de atribuição
 
 tem a capacidade de atribuir valor a uma variavel a partir de uma condição lógica, economiza IPs
@@ -50,49 +49,49 @@ Exemplo:
 
 var meuCarro = cor == "preto" ? "preto" : "branco"
 
-
 ## Condicionais
 
-
 ## Laços de Repetição
+
 For([ExpresãoInicial];[condição];[incremento/decremento]) {
-    [Resultado]
+[Resultado]
 }
 
-````
+```
 //Fazer revisão de carro com 10km
 var km;
 var revisao = 10;
 for ( km = 0;km < 10; km++) {
     console.log("O carro rodou apenas " + km + "kms não precisa de revisão")
 }
-````
+```
 
 ### Cálculo de média de alunos
+
 for([expresãoInicial;[condição];[incremento/decremento]])
 
 While ( [condição] ) {
-    [execução]
+[execução]
 }
 var c = 0
 
-
 while ( c < 10 ) {
-    c++
+c++
 }
 var hora = 23
 
 while(hora > 0) {
-    hora--
-    console.log(hora)
+hora--
+console.log(hora)
 }
-````
+
+```
 do  {
  [execução]
 } while (condição)
-````
+```
 
-````
+```
 var alunos = [
     [6,7,8,6],
     [8,5,6,8],
@@ -122,4 +121,36 @@ for (var i=0;i < alunos.length;i++) {
     console.log("Média " + media + " - " + resultado)
 }
 
-````
+```
+
+## Funções
+
+- Evitar repeticao de codigo
+- Realizar chamadas dinamicas de algoritimos
+
+function calculoMedia ( notas ) {
+var soma = 0
+for ( c = 0; c < notas.length; c++ ) {
+soma += notas[c]
+}
+media = soma / notas.length
+return media
+
+}
+
+function aprovacao( notas ) {
+
+    let media = calculoMedia( notas )
+
+    let condicao = media >= 7 ? "aprovado" : "reprovado"
+
+return condicao;
+}
+
+console.log()
+
+console.log("Media: " + calculoMedia([8,8]))
+console.log(aprovacao( calculoMedia([8,8])))
+
+console.log("Media: " + calculoMedia([8,8,2,7,8,9]))
+console.log(aprovacao(calculoMedia([8,4])))

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <p>Digite 3 numeros</p>
     <input type="number" name="" id="a">
@@ -19,5 +21,50 @@
 
     </div>
     <script src="script.js"></script>
+
+    <script>
+        function calculoMedia(notas) {
+            var soma = 0;
+            for (c = 0; c < notas.length; c++) {
+                soma += notas[c];
+            }
+            media = soma / notas.length;
+            return media;
+        }
+
+        function aprovacao(notas) {
+            let media = calculoMedia(notas);
+
+            let condicao = media >= 7 ? "aprovado" : "reprovado";
+
+            return condicao;
+        }
+
+        console.log();
+
+        console.log("Media: " + calculoMedia([8, 8]));
+        console.log(aprovacao(calculoMedia([8, 8])));
+
+        console.log("Media: " + calculoMedia([8, 8, 2, 7, 8, 9]));
+        console.log(aprovacao(calculoMedia([8, 4])));
+
+        // Funções recursivas
+
+        function contagemRegressiva(numero) {
+
+            console.log(numero)
+
+            let proximo = numero - 1
+            if(proximo > 0)
+
+
+           contagemRegressiva(proximo)
+        }
+
+
+        contagemRegressiva(50)
+
+    </script>
 </body>
+
 </html>
