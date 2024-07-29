@@ -64,3 +64,19 @@ objeto = {
 - Código Executado por navegadores
 - O conteúdo NÃO fica visivel para indexadores de busca
 - Alterações em tempo de execução não ficam salvos no documento
+
+
+### Exemplos
+
+- document.getElementById('id')
+- document.getElementByTagName('name')
+- document.creatElement('name')
+- parentNode.appendChild('node')
+- element.innerText
+- element.style
+- element.setAtribut('name')
+- element.addEventListener()
+- window.location
+- window.onload
+- console.log()
+- window.scroll()
