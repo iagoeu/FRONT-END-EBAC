@@ -154,3 +154,7 @@ console.log(aprovacao( calculoMedia([8,8])))
 
 console.log("Media: " + calculoMedia([8,8,2,7,8,9]))
 console.log(aprovacao(calculoMedia([8,4])))
+
+
+
+
