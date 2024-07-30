@@ -80,3 +80,21 @@ objeto = {
 - window.onload
 - console.log()
 - window.scroll()
+
+## Seletores 
+
+- Tipos de Seletores; Tag, ID, Class, Name, Query
+- CallBack
+- getElementById('id)
+- getElementByTagName('name')
+- getElementByName('name')
+- getElementByClassName('name')
+
+## Formulários
+- Precisamos evitar que o usuario passe dados incorretos
+- Ou seja, para direcionar melhor o uso do sistema
+- Protejer a injeção de codigo malicioso
+- Evitar erros de processamento
+- Formatar dados para facilitar o processamento
+- Regex (Expreções regulares )
+
